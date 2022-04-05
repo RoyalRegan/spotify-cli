@@ -9,12 +9,21 @@ version = "0.0.1"
 
 val mainClassPath = "com.jaju.Main"
 
+//versions
+val corutines = "1.6.1"
+val spotifyApiKotlin = "3.8.6"
+val clikt = "3.4.0"
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$corutines")
+
+    implementation("com.github.ajalt.clikt:clikt:$clikt")
+    implementation("com.adamratzman:spotify-api-kotlin-core:$spotifyApiKotlin")
 }
 
 application {
