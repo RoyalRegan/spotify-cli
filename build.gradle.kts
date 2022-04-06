@@ -7,7 +7,7 @@ plugins {
 group = "com.jaju"
 version = "0.0.1"
 
-val mainClassPath = "com.jaju.Main"
+val mainClassPath = "com.jaju.spotify.cli.Main"
 
 //versions
 val corutines = "1.6.1"
